@@ -1,50 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace dangchu03
+﻿namespace dangchu03
 {
     internal class ex()
     {
 
 
-        static void Main()
+        static void Main001()
         {
             //ex01();
             //ex02();
             //ex03();
-            ex04();
+            // ex04();
 
 
         }
         static void ex01()
-        { 
+        {
             Console.Write("Nhap so thu nhat : ");
             double s1 = Convert.ToDouble(Console.ReadLine());
             Console.Write("Nhap phep toan ( +,-,*,/) : ");
             char pt = Convert.ToChar(Console.ReadLine());
             Console.Write("Nhap so thu hai : ");
             double s2 = Convert.ToDouble(Console.ReadLine());
-            if (pt == '+') 
+            if (pt == '+')
             {
                 Console.WriteLine($"{s1} + {s2} = {s1 + s2}");
             }
-            else if (pt == '-') 
+            else if (pt == '-')
             {
                 Console.WriteLine($"{s1} - {s2} = {s1 - s2}");
             }
-            else if (pt == '*') 
+            else if (pt == '*')
             {
                 Console.WriteLine($"{s1} * {s2} = {s1 * s2}");
             }
 
-            else if (pt == '/') 
+            else if (pt == '/')
             {
-                if (s2 != 0) 
+                if (s2 != 0)
                 {
                     Console.WriteLine($"{s1} / {s2} = {s1 / s2}");
                 }
-                else  
+                else
                 {
                     Console.WriteLine("Khong the chia cho 0");
                 }
@@ -68,7 +64,7 @@ namespace dangchu03
             int h = int.Parse(Console.ReadLine());
 
             Console.Write("Phut : ");
-            int p= int.Parse(Console.ReadLine());
+            int p = int.Parse(Console.ReadLine());
 
             Console.Write("Giay : ");
             int s = int.Parse(Console.ReadLine());
